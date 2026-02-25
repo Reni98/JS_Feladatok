@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Rendelo</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Név:</label>
+        <input type="text" id="nev">
+        <br>
+
+        <label for="">Választható pizzák</label><br>
+       <select id="pizzak">
+        <option value="Songoku">Songoku</option>
+        <option value="Hawaii">Hawaii</option>
+        <option value="Négysajtos">Négysajtos</option>
+        <option value="Szalámis">Szalámis</option>
+       </select>
+       <br>
+
+       <label for="">Méret:</label>
+       <select  id="meretek">
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+       </select>
+       <br>
+
+       <label for="">Feltétek:</label><br>
+       <label for="">sajt</label>
+       <input type="checkbox" value="sajt" id="feltetek1">
+       <label for="">sonka</label>
+       <input type="checkbox" value="sonka" id="feltetek2"> 
+       <br>
+       <button type="button" onclick="rendelesiAdatok()">Rendelés</button>
+    </form>
+    <script src="pizza.js"></script>
+</body>
+</html>
